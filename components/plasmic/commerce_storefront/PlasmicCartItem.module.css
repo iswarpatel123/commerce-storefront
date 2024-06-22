@@ -1,0 +1,138 @@
+.root {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.img {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 200px;
+  flex-shrink: 0;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .img {
+    position: relative;
+    left: auto;
+    top: auto;
+  }
+}
+.freeBox__n6S4P {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  top: auto;
+  left: auto;
+  padding: 32px;
+}
+.freeBox__n6S4P > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.freeBox__n6S4P > :global(.__wab_flex-container) > *,
+.freeBox__n6S4P > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__n6S4P > :global(.__wab_flex-container) > picture > img,
+.freeBox__n6S4P
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__n6S4P {
+    position: relative;
+    left: auto;
+    top: auto;
+  }
+}
+.link {
+  display: flex;
+  flex-direction: row;
+}
+.freeBox__pef4F {
+  display: flex;
+  position: relative;
+}
+.slotTargetTitle {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  white-space: pre-wrap;
+  color: #333333;
+}
+.freeBox__mym4L {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: auto;
+}
+.slotTargetProductNumber {
+  color: var(--token-4vtWrtV9weve);
+}
+.freeBox__nOubE {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.freeBox___6Adte {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.freeBox__u8ATg {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.freeBox__u8ATg > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.freeBox__u8ATg > :global(.__wab_flex-container) > *,
+.freeBox__u8ATg > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__u8ATg > :global(.__wab_flex-container) > picture > img,
+.freeBox__u8ATg
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.svg__elQrq {
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.svg__vrPi {
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
